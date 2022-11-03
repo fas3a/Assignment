@@ -1,0 +1,57 @@
+body{
+  margin: 0;
+}
+.page-link {
+  background-color: red;
+  margin: 10px 30px;
+  display: inline-block;
+  padding: 14px 35px;
+  text-decoration: none;
+  color: white;
+  font-size: bold;
+  border-radius: 10px;
+}
+.page-link:hover {
+  background-color: rgb(69, 5, 5);
+}
+
+.container{
+  display: grid;
+    gap: 10px;
+    padding: 30px;
+    height: 90vh;
+    grid-template-rows: 100px 20px;
+    grid-template-columns: auto auto 50px auto auto;
+    justify-content: center;
+    align-content: center;
+}
+.container div{
+    padding: 25px 100px;
+}
+.red {
+  background-color: red;
+  grid-column: 1 / span 3;
+    grid-row: 1 / span 2;
+}
+.yellow {
+  background-color: yellow;
+  grid-column: 4 /span 2;
+    grid-row: 1 / span 2;
+}
+
+.green {
+  background-color: green;
+  grid-column: 1 /span 2;
+    grid-row: 3 / span 2;
+}
+
+.blue1 {
+  background-color: blue;
+  grid-column: 3 / span 3;
+    grid-row: 3;
+}
+.blue2 {
+  background-color: blue;
+  grid-column: 3 / span 3;
+    grid-row: 4;
+} 
