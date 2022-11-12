@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  color: white;
+  background-color: black;
+}
+
+/* Naviagation */
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  background-color: black;
+}
+/* .logo{
+      padding:20px
+    }
+    .top-nav .navlist a{
+      padding: 20px;
+    } */
+
+.top-nav a {
+  padding: 20px 25px;
+  text-decoration: none;
+  color: white;
+}
+.top-nav a:hover {
+  background-color: grey;
+}
+@media screen and (max-width: 630px) {
+  .top-nav {
+    display: block;
+    text-align: center;
+  }
+  .top-nav a {
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/* Main Section of about us */
+
+main {
+  margin-top: 0;
+  max-width: 80%;
+  margin: 0 auto 20px;
+  height: 80vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: rgb(16, 15, 15);
+  color: rgb(88, 79, 79);
+  box-shadow: 0 4px 8px 0 rgba(173, 165, 165, 0.2),
+    0 6px 20px 0 rgba(214, 113, 113, 0.19);
+}
+main .contact-img {
+  max-width: 50%;
+  padding: 35px;
+}
+main .contact {
+  max-width: 50%;
+  padding: 35px;
+}
+.contact h2 {
+  color: red;
+  font-weight: bold;
+}
+.contact input,
+textarea,
+button {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: rgb(85, 81, 81);
+  color: white;
+  border-radius: 5px;
+}
+.contact button {
+  background-color: red;
+}
+@media screen and (max-width: 650px) {
+  main {
+    max-width: 80%;
+    display: block;
+    height: 100%;
+  }
+  main .contact-img {
+    max-width: 100%;
+    padding: 35px;
+  }
+  main .contact {
+    max-width: 100%;
+    padding: 35px;
+  }
+}
