@@ -1,0 +1,47 @@
+.container {
+        padding: 20px 0;
+        background-color: aqua;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .pglabel {
+        text-align: left;
+        width: 50%;
+        font-size: 20px;
+        font-weight: bolder;
+        padding-bottom: 15px;
+      }
+      .form1 {
+        background-color: white;
+        margin: auto auto;
+        width: 40%;
+        padding: 25px 30px;
+        border: 1px grey solid;
+        box-shadow: 2px 2px rgb(207, 206, 206);
+        border-radius: 10px;
+        align-items: center;
+      }
+      #Ntext {
+        width: 100%;
+        height: 30px;
+        margin-top: 5px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+      }
+      .submit {
+        margin: auto;
+        background-color: red;
+        width: 200px;
+        margin: 10px 50px;
+        border-radius: 25px;
+        color: white;
+        border: none;
+      }
+      .needaccount {
+        text-align: center;
+      }
+      .needaccount a {
+        text-decoration: none;
+      }
